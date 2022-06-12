@@ -1,0 +1,61 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<link rel="stylesheet" href="styles.css">
+
+<h1 id="title">freeCodeCamp Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+<form id="survey-form">
+  <div class="form-group">
+    <label id="name-label" foe="name">Name</label>
+  <input id="name"
+         name="name"
+         type="text"
+         placeholder="enter your name here"
+         required>
+  </div>
+  <form id="survey-form">
+  <div class="form-group">
+    <label id="email-label" for="email">Email</label>
+  <input id="email"
+         name="email"
+         type="email"
+         pattern=".+@globex\.com"
+         min="10"
+         max="100"
+         placeholder="enter your email here"
+         required>
+  </div>
+  <div class="form-group">
+    <label id="number-label" for="age">Age</label>
+  <input id="number"
+         name="age"
+         type="number"
+         min="10"
+         max="100"
+         placeholder="enter your age here"
+         >
+  </div>
+  <label for="food">Choose an option:</label>
+  <select id="dropdown" name="food">
+    <option value="macnchesse">MacnCheese</option>
+    <option value="pizza">pizza</option>
+    <option value="french-fries">french fries</option>
+    <option value="bacon">Bacon</option>
+  </select>
+<label for="mayonnaise"> 
+  <input id="mayonnaise" value="mayonnaise" type="radio" name="Sauce">mayonnaise 
+</label>
+    <label for="ketchup"> 
+  <input id="ketchup" value="ketchup" type="radio" name="Sauce">ketchup 
+</label>
+    <label for="Pepperoni"> 
+  <input id="Pepperoni" value="Pepperoni" type="checkbox" name="Toppings">Pepperoni 
+</label>
+    <label for="Bacon"> 
+  <input id="Bacon" value="Bacon" type="checkbox" name="Toppings">Bacon 
+</label>
+    <label for="Extra-cheese"> 
+  <input id="Extra-cheese" value="Extra-cheese" type="checkbox" name="Toppings">Extra cheese 
+</label>
+    <br>
+    <textarea id="t" name="t" placeholder="your comments"></textarea>
+    <input id="submit" type="submit">
